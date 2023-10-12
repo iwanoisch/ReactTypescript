@@ -6,12 +6,30 @@ This project was created to find several Dogs sorted by Breed, you can find seve
 after run this app you can choose a breed and then see several images.
 
 I implemented Tailwind in order to create a simple layout.
-
 I used chrome to create my application. And it is optimized by using of mobile phone.
-
 I added a loading animation when you fetch a dog datas urls images.
-
 I addedd a simpe test. i am looking for if a text was be in html. into App.test.tsx
+
+## Docker Usage
+ Open Docker desktop and in the project folder in the terminal insert this:
+
+Create Docker image called react-app
+## `sudo docker build -t react-app .`
+
+Create a Docker container
+## `sudo docker run -it -p 3000:3000 -d react-app`
+
+Commands:
+Start docker start my_container in my case container name is vibrant_tesla
+## `docker start vibrant_tesla`
+
+Start docker stop my_container
+## ` docker stop vibrant_tesla`
+
+After start you can find your project on local host port
+
+## `http://localhost:3000/`
+
 
 ## Before run app
 
